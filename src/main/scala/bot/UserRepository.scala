@@ -1,3 +1,3 @@
 package bot
 
-trait UserRepository[F] extends Repository[F, User]
+class UserRepository() extends ConcurrentHashMapRepository[User]
