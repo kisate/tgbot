@@ -1,3 +1,3 @@
 package bot
 
-trait UserRepository[F[_]] extends Repository[F, User]
+trait UserRepository[F] extends Repository[F, User]

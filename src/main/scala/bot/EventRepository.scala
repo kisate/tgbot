@@ -1,3 +1,3 @@
 package bot
 
-trait EventRepository[F[_]] extends Repository[F, Event]
+trait EventRepository[F] extends Repository[F, Event]
